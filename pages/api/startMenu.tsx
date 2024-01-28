@@ -15,10 +15,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             <head>
               <title>Menu</title>
               <meta property="og:title" content="Menu">
-              <meta property="og:image" content="">
+              <meta property="og:image" content="https://fc-polls-delta.vercel.app/api/image">
               <meta name="fc:frame" content="vNext">
-              <meta name="fc:frame:image" content="">
-              <meta name="fc:frame:post_url" content="localhost:3000/api/startMenu">
+              <meta name="fc:frame:image" content="https://fc-polls-delta.vercel.app/api/image">
+              <meta name="fc:frame:post_url" content="https://fc-polls-delta.vercel.app/api/startMenu">
               <meta name="fc:frame:button:1" content="Option 0">
               <meta name="fc:frame:button:2" content="Option 1">
               <meta name="fc:frame:button:3" content="Option 2">
